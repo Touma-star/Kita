@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fff9f9;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffe0e0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #ffb3c6;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .galeri-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .galeri-container img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .surat-cinta {
+    background-color: #fff0f5;
+    padding: 2rem;
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffb3c6;
+    color: white;
+  }
+  
